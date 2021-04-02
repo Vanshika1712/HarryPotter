@@ -1,0 +1,73 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  color:#000000;
+  height:100%;
+  font-size:18px;
+  font-family:"sans-serif";
+  font-weight:400;
+  line-height: normal;
+}
+.harry, .ron, .hermione, .hpnf{
+  position: relative;
+  background-repeat: no-repeat;
+  min-height:100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+.hpnf{
+  background-image: url('img/hpnf.jpg');
+  min-height: 150%;
+}
+
+.harry{
+  background-image:url('img/HP.jpg');
+}
+
+.ron{
+  background-image:url('img/ron.jpg');
+}
+
+.hermione{
+  background-image:url('img/her.jfif');
+}
+
+
+
+h2{
+  font-size: 300%;
+
+}
+
+p{
+  font-size: 120%;
+}
+
+.about{
+  text-align: center;
+  background-color:#000000;
+  color:#ffffff;
+  padding: 30px;
+}
+
+.A{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 40%;
+  text-align: center;
+  font-size: 200%;
+  background-color:#000000;
+  color:#ffffff;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+
