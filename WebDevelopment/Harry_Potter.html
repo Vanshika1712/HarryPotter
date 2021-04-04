@@ -1,63 +1,106 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  color:#000000;
+  height:100%;
+  font-size:18px;
+  font-family:"sans-serif";
+  font-weight:400;
+  line-height: normal;
+}
+.harry, .ron, .hermione, .hpnf, .intro{
+  position: relative;
+  background-repeat: no-repeat;
+  min-height:100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+.hpnf{
+  background-image: url('img/hpnf.jpg');
+  min-height: 150%;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Harry Potter</title>
-  <link rel="stylesheet" href="Hp.css">
-</head>
-<body>
-  <div class="hpnf">
-    <div class="B">
-      <span class="A">
-        HARRY POTTER AND HIS FRIENDS
-      </span>
-    </div>
-  </div>
+.harry{
+  background-image:url('img/HP.jpg');
+}
 
-  <div class="harry">
-    <div class="B">
-      <span class="A">
-        1. HARRY POTTER
-      </span>
-    </div>
-  </div>
+.ron{
+  background-image:url('img/ron.jpg');
+}
 
-  <section class="about">
-    <h2> <u>About Harry</u> </h2>
-    <p>
-      Harry Potter is the protagonist of a series of young adult novels by J. K. Rowling. ... Harry, although an ordinary boy in the normal world, has potentially great power as a wizard. In appearance, Harry is a slight, dark-haired boy with a scar on his forehead left from a magical battle that occurred when he was an infant.
-    </p>
-  </section>
+.hermione{
+  background-image:url('img/her.jfif');
+}
 
-  <div class="ron">
-    <div class="B">
-      <span class="A">
-        2. RONALD WEASELY
-      </span>
-    </div>
-  </div>
+.intro{
+  background-image: url('img/intro.jpg');
+}
 
-  <section class="about">
-    <h2> <u> About Ron </u></h2>
-    <p>
-      Ron is a true Gryffindor; he can be quite brave when his friends are in danger, and does his best to protect Harry or Hermione should the need arise. He also shows great loyalty to his friends and family and appears more logistically-minded than Harry or Hermione, particularly excelling in Wizard's Chess.
-    </p>
-  </section>
+h2{
+  font-size: 300%;
 
-  <div class="hermione">
-    <div class="B">
-      <span class="A">
-        3. HERMIONE GRANGER
-      </span>
-    </div>
-  </div>
+}
 
-  <section class="about">
-    <h2> <u> About Hermione </u> </h2>
-    <p> 
-      Hermione is a Muggle-born witch. She has bushy brown hair and brown eyes, and had buck teeth until her fourth year. However much Ron and Harry tease her, they both depend on her intelligence for their continuing success in academics. She is the most sensible of the Trio and is usually the one to solve the mysteries they are faced with.
-    </p>
-  </section>
-</body>
-</html>
+p{
+  font-size: 120%;
+}
+
+.about{
+  text-align: center;
+  background-color:#000000;
+  color:#ffffff;
+  padding: 30px;
+}
+
+.A, .I{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 40%;
+  text-align: center;
+  font-size: 200%;
+  background-color:#000000;
+  color:#ffffff;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.I{
+  left: 17%;
+  top: 40%;
+  font font-family: 'Alegreya';
+  background-color:#ffffff;
+  color:#000000;
+
+}
+
+.links{
+  font-size: 150%;
+  vertical-align: top;
+  float: left;
+  margin-top: 30%;
+  margin-left: 25%;
+  width: 50%;
+}
+.links a{
+  text-decoration: none;
+  padding-right: 4%;
+  color: white;
+  display: inline-block;
+}
+
+.links a:hover{
+  background-color: red;
+  color: white;
+  font-size: 120%;
+  padding: 10px;
+}
+
+
+
+
+
